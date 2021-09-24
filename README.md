@@ -56,8 +56,8 @@ Enter Email and choose correct options to install certbot
 
 - > mkdir certs 
 
-- > sudo cp /etc/letsencrypt/live/<yourdomainname>/fullchain.pem ./certs
-- > sudo cp /etc/letsencrypt/live/<yourdomainname>/privkey.pem ./certs
+- > sudo cp /etc/letsencrypt/live/yourdomainname/fullchain.pem ./certs
+- > sudo cp /etc/letsencrypt/live/yourdomainname/privkey.pem ./certs
 
 
 #### 6) Build the Docker app and run the services:
