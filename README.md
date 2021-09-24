@@ -60,7 +60,7 @@ Enter Email and choose correct options to install certbot
 - > sudo cp /etc/letsencrypt/live/<yourdomainname>/privkey.pem ./certs
 
 
-#### 4) Build the Docker app and run the services:
+#### 6) Build the Docker app and run the services:
 
 - > docker-compose build
 
@@ -77,7 +77,7 @@ make the containers up in running state:
 - Once you see all the services up and running, open the ip address of the machine in the browser and test the bot
 
 
-#### 5) To update the existing images after re-cloning
+#### 7) To update the existing images after re-cloning
 
 Reclone the github with changes
 
