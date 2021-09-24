@@ -52,7 +52,7 @@ To get a certificate (you will need a domain name and email ready in this step):
 
 Enter Email and choose correct options to install certbot
 
-#### 5) Moving certificated to Docker Application Directory
+#### 5) Moving freshly created certificates to Docker Application Directory
 
 - > mkdir certs 
 
